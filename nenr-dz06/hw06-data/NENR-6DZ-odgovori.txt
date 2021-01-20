@@ -1,0 +1,38 @@
+4. zadatak
+-------------
+a) Samo jedno pravilo
+Različite stope učenja ne daju bolju pogrešku od ~18683.
+
+Razlika batch i online učenja je skoro pa nevidljiva zbog premalog broja pravila.
+
+ETA batch: 1e-6 za obje
+
+ETA online: 1e-6 za obje
+
+b) Dva pravila
+
+ETA batch: PQR 1e-4, AB 5 * 1e-5
+
+ETA online: PQR 6 * 1e-4, AB 1e-4
+
+Batch i online podjednaki opet, vjerojatno limitirani brojem pravila.
+
+Za navedene stope učenja konzistentno se postiže pogreška od ~926.
+
+c) Prikladan broj pravila - 15
+
+Za 15 pravila za online learning sam uspio dobiti bolje rezultate nego za batch.
+
+Pogreška ~0.52.
+
+ETA batch: PQR 8 * 1e-4, AB 1e-4
+
+ETA online: isto kao batch
+
+8. zadatak
+--------------
+Small eta: 1e-9
+
+Optimal eta: 8 * 1e-4, 1e-4
+
+Big eta: 1e-2

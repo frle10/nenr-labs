@@ -1,0 +1,4 @@
+C:\fuzzy\fuzzyControlSys.exe
+1
+20
+10

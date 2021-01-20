@@ -1,0 +1,1 @@
+package hr.fer.zemris.fuzzy.demo;

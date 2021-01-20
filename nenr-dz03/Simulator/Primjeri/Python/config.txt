@@ -1,0 +1,4 @@
+C:\Python27\python.exe C:\fuzzy\primjer.py
+1
+20
+10

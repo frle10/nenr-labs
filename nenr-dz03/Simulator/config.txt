@@ -1,0 +1,4 @@
+java -cp ../target/classes hr.fer.zemris.fuzzy.demo.Demo
+3
+50
+20
